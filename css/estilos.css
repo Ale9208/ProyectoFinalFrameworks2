@@ -1,7 +1,8 @@
 body{
 	background-image: url(../img/fondo.jpg);
 	background-repeat: no-repeat;
-	background-size: 
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .lupa{
@@ -29,6 +30,14 @@ ul li{
 }
 
 .barra-superior, .body-container{
-	background-color: #fecfde;
+	background-color: rgba(250, 62, 62, 0.6);
 }
 
+.der-columna, .izq-columna, .buscador{
+	background-color: rgba(255, 204, 195, 0.8);
+	
+}
+
+.historial, .favoritos{
+	background-color: rgba(250, 62, 62, 1);
+}
